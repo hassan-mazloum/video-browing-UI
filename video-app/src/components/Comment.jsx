@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Mypic from '../img/mypic.jpg'
 
+
+// React styled components for layout
 const Container = styled.div`
 display: flex;
 gap: 10px;

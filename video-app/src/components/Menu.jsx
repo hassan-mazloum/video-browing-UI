@@ -4,7 +4,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from 'react-router-dom';
 
 
-
+// React styled components for layout
 
 const Container = styled.div`
 flex:1;

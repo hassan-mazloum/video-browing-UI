@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 
-
+// React styled components for layout
 
 const Container = styled.div`
 width: ${(props) => props.type !== "sm" && "360px"};
@@ -61,7 +61,7 @@ const Card = ({ type }) => {
           <ChannelImage type={type} src={Mypic} />
           <Texts>
             <Title>Test Video</Title>
-            <ChannelName>Coding Challenge</ChannelName>
+            <ChannelName> Test Channel</ChannelName>
           </Texts>
         </Details>
       </Container>

@@ -1,3 +1,5 @@
+// Dark theme to be toggled on/off 
+
 export const darkTheme = {
     bg: "#181818",
     bgLighter: "#202020",

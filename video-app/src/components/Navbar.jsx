@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from 'react-router-dom';
 
+
+// React styled components for layout
 const Container = styled.div`
 position:sticky;
 top: 0;

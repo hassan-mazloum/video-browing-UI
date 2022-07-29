@@ -4,6 +4,8 @@ import Card from '../components/Card';
 import Comments from '../components/Comments';
 
 
+
+// React styled components for layout
 const Container = styled.div`
 display: flex;
 gap: 24px;
@@ -49,6 +51,7 @@ padding: 10px 30px;
 cursor: pointer;
 background-color: ${({ theme }) => theme.bgLighter};
 color: ${({ theme }) => theme.textSoft};
+// hover effect to change 
 &:hover{
     background-color: ${({ theme }) => theme.soft};
 }
@@ -71,6 +74,7 @@ const Video = () => {
     <Container>
       <Content>
         <VideoWrapper>
+          {/* random youtube video for testing purpose */}
           <iframe
             width="100%"
             height="700"
@@ -83,7 +87,7 @@ const Video = () => {
         </VideoWrapper>
         <Title> Test Video</Title>
         <Details>
-          <Info> This is a video dated jun 22, 2022</Info>
+          <Info> Youtube video </Info>
           <Buttons>
             <Button >Disable comments</Button>
           </Buttons>
@@ -91,6 +95,7 @@ const Video = () => {
         <Hr />
         <Comments />
       </Content>
+      {/* Video cards appearing on in the recommendations section */}
       <Recommendation>
         <Card type="sm" />
         <Card type="sm" />

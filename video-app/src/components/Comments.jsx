@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Comment from './Comment';
 
 
-
+// React styled components for layout
 const Container = styled.div``;
 
 
