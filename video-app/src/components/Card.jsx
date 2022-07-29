@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 const Container = styled.div`
 width: ${(props) => props.type !== "sm" && "360px"};
 margin-bottom:${(props) => props.type === "sm" ? "10px" : "45px"};
@@ -55,7 +56,7 @@ const Card = ({ type }) => {
   return (
     <Link to="/video/test" style={{ textDecoration: "none" }}>
       <Container type={type}>
-        <Image type={type} />
+        <Image type={type}  />
         <Details type={type}>
           <ChannelImage type={type} src={Mypic} />
           <Texts>
